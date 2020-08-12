@@ -1,4 +1,5 @@
 # Add-comment_workitem
+Скрипт запускается внутри пайплайна Azure devops и проставляет версию билда в коментах во всех связанных workitem-ах
 # For manuall run
 main.py --buildid "$(Build.BuildId)" --comment "$(MyComment)" --token "$(System.AccessToken)" --org "https://dev.azure.com/arxspan" --proj "Biology Editor"
 
